@@ -1,0 +1,40 @@
+2018-11-05T09:59:34.425Z [[32minfo[39m] 	Starting TrueAutomation.IO client
+2018-11-05T09:59:34.426Z [[32minfo[39m] 	API key: 44c69a48-ba10-4fb0-b4a2-b07e2da25af9
+2018-11-05T09:59:34.426Z [[32minfo[39m] 	Project name: capybaraTest
+2018-11-05T09:59:34.426Z [[32minfo[39m] 	Cloud server: https://app.trueautomation.io
+2018-11-05T09:59:34.861Z [[32minfo[39m] 	TrueAutomation.IO Client is listening on port 9515
+2018-11-05T09:59:42.539Z [[32minfo[39m] 	0 Create session response: {"status":0,"value":{"webStorageEnabled":false,"locationContextEnabled":false,"browserName":"safari","platform":"ANY","javascriptEnabled":false,"databaseEnabled":false,"takesScreenshot":false,"networkConnectionEnabled":false,"version":"","cssSelectorsEnabled":false,"nativeEvents":false,"rotatable":false,"automationName":"XCUITest","platformName":"iOS","deviceName":"iPhone X (11.4)","udid":"D6FDC999-401B-4799-9489-351613A424FB","taRemoteUrl":"http://localhost:4723/wd/hub"},"sessionId":"c9a4f044-e705-4924-aa36-8e4b32e1e720"}
+2018-11-05T09:59:42.573Z [[32minfo[39m] 	1 Sending POST request to http://localhost:4723/wd/hub/session/c9a4f044-e705-4924-aa36-8e4b32e1e720/url:  {"url":"http://annieselke.com"}
+2018-11-05T09:59:49.642Z [[32minfo[39m] 	2 Sending elements request to http://localhost:4723/wd/hub/session/c9a4f044-e705-4924-aa36-8e4b32e1e720:  {"using":"xpath","value":"//button//span//a[contains(text(),\"Rugs\")]__ta__taCategory__ta__"}
+2018-11-05T09:59:50.020Z [[32minfo[39m] 	2 Enum nodes response:  {"status":0,"value":"{\"node_type\":\"El
+2018-11-05T09:59:50.224Z [[32minfo[39m] 	2 Elements locator: {"value":"/*[1]/*[2]/*[2]/*[1]/*[2]/*[1]/*[2]/*[2]/*[1]/*[1]/*[1]/*[1]/*[1]/*[1]","using":"xpath"}
+2018-11-05T09:59:50.278Z [[32minfo[39m] 	2 Elements response: {"status":0,"value":[{"ELEMENT":"5000"}],"sessionId":"c9a4f044-e705-4924-aa36-8e4b32e1e720"}
+2018-11-05T09:59:50.284Z [[32minfo[39m] 	3 Sending GET request to http://localhost:4723/wd/hub/session/c9a4f044-e705-4924-aa36-8e4b32e1e720/element/5000/displayed:  {}
+2018-11-05T09:59:50.334Z [[32minfo[39m] 	4 Sending POST request to http://localhost:4723/wd/hub/session/c9a4f044-e705-4924-aa36-8e4b32e1e720/element/5000/click:  {}
+2018-11-05T09:59:50.521Z [[32minfo[39m] 	5 Sending elements request to http://localhost:4723/wd/hub/session/c9a4f044-e705-4924-aa36-8e4b32e1e720:  {"using":"xpath","value":"//div[@data-page=\"Subcategory\"]__ta__taCategoryPage__ta__"}
+2018-11-05T09:59:51.056Z [[32minfo[39m] 	5 Enum nodes response:  {"status":0,"value":"{\"node_type\":\"El
+2018-11-05T09:59:51.437Z [[32minfo[39m] 	5 Elements locator: {"value":"/*[1]/*[2]/*[2]/*[1]/*[3]/*[3]","using":"xpath"}
+2018-11-05T09:59:51.531Z [[32minfo[39m] 	5 Elements response: {"status":0,"value":[],"sessionId":"c9a4f044-e705-4924-aa36-8e4b32e1e720"}
+2018-11-05T09:59:51.592Z [[32minfo[39m] 	6 Sending elements request to http://localhost:4723/wd/hub/session/c9a4f044-e705-4924-aa36-8e4b32e1e720:  {"using":"xpath","value":"//div[@data-page=\"Subcategory\"]__ta__taCategoryPage__ta__"}
+2018-11-05T09:59:52.330Z [[32minfo[39m] 	6 Enum nodes response:  {"status":0,"value":"{\"node_type\":\"El
+2018-11-05T09:59:53.291Z [[32minfo[39m] 	6 Elements locator: {"value":"/*[1]/*[2]/*[2]/*[1]/*[3]/*[1]","using":"xpath"}
+2018-11-05T09:59:53.352Z [[32minfo[39m] 	6 Elements response: {"status":0,"value":[{"ELEMENT":"5001"}],"sessionId":"c9a4f044-e705-4924-aa36-8e4b32e1e720"}
+2018-11-05T09:59:53.357Z [[32minfo[39m] 	7 Sending GET request to http://localhost:4723/wd/hub/session/c9a4f044-e705-4924-aa36-8e4b32e1e720/element/5001/displayed:  {}
+2018-11-05T09:59:53.462Z [[32minfo[39m] 	8 Sending elements request to http://localhost:4723/wd/hub/session/c9a4f044-e705-4924-aa36-8e4b32e1e720:  {"using":"xpath","value":"//div[@data-page=\"Subcategory\"]__ta__taCategoryPage__ta__"}
+2018-11-05T09:59:53.964Z [[32minfo[39m] 	8 Enum nodes response:  {"status":0,"value":"{\"node_type\":\"El
+2018-11-05T09:59:54.949Z [[32minfo[39m] 	8 Elements locator: {"value":"/*[1]/*[2]/*[2]/*[1]/*[3]/*[1]","using":"xpath"}
+2018-11-05T09:59:55.043Z [[32minfo[39m] 	8 Elements response: {"status":0,"value":[{"ELEMENT":"5002"}],"sessionId":"c9a4f044-e705-4924-aa36-8e4b32e1e720"}
+2018-11-05T09:59:55.055Z [[32minfo[39m] 	9 Sending GET request to http://localhost:4723/wd/hub/session/c9a4f044-e705-4924-aa36-8e4b32e1e720/element/5002/displayed:  {}
+2018-11-05T09:59:55.161Z [[32minfo[39m] 	10 Sending elements request to http://localhost:4723/wd/hub/session/c9a4f044-e705-4924-aa36-8e4b32e1e720:  {"using":"xpath","value":"//div[@data-page=\"Subcategory\"]__ta__taCategoryPage__ta__"}
+2018-11-05T09:59:55.679Z [[32minfo[39m] 	10 Enum nodes response:  {"status":0,"value":"{\"node_type\":\"El
+2018-11-05T09:59:56.581Z [[32minfo[39m] 	10 Elements locator: {"value":"/*[1]/*[2]/*[2]/*[1]/*[3]/*[1]","using":"xpath"}
+2018-11-05T09:59:56.651Z [[32minfo[39m] 	10 Elements response: {"status":0,"value":[{"ELEMENT":"5003"}],"sessionId":"c9a4f044-e705-4924-aa36-8e4b32e1e720"}
+2018-11-05T09:59:56.658Z [[32minfo[39m] 	11 Sending GET request to http://localhost:4723/wd/hub/session/c9a4f044-e705-4924-aa36-8e4b32e1e720/element/5003/displayed:  {}
+2018-11-05T09:59:56.704Z [[32minfo[39m] 	12 Sending DELETE request to http://localhost:4723/wd/hub/session/c9a4f044-e705-4924-aa36-8e4b32e1e720/cookie:  {}
+2018-11-05T09:59:56.807Z [[32minfo[39m] 	13 Sending POST request to http://localhost:4723/wd/hub/session/c9a4f044-e705-4924-aa36-8e4b32e1e720/url:  {"url":"about:blank"}
+2018-11-05T09:59:58.869Z [[32minfo[39m] 	14 Sending elements request to http://localhost:4723/wd/hub/session/c9a4f044-e705-4924-aa36-8e4b32e1e720:  {"using":"xpath","value":"/html/body/*"}
+2018-11-05T09:59:58.869Z [[32minfo[39m] 	14 Elements locator: {"value":"/html/body/*","using":"xpath"}
+2018-11-05T09:59:58.945Z [[32minfo[39m] 	14 Elements response: {"status":0,"value":[],"sessionId":"c9a4f044-e705-4924-aa36-8e4b32e1e720"}
+2018-11-05T09:59:58.991Z [[32minfo[39m] 	15 Sending DELETE request to http://localhost:4723/wd/hub/session/c9a4f044-e705-4924-aa36-8e4b32e1e720:  {}
+2018-11-05T10:00:00.063Z [[32minfo[39m] 	Sync elements
+2018-11-05T10:00:00.629Z [[32minfo[39m] 	Stopping driver

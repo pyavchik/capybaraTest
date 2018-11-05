@@ -1,0 +1,115 @@
+2018-11-05T10:16:40.365Z [[32minfo[39m] 	Starting TrueAutomation.IO client
+2018-11-05T10:16:40.366Z [[32minfo[39m] 	API key: 44c69a48-ba10-4fb0-b4a2-b07e2da25af9
+2018-11-05T10:16:40.366Z [[32minfo[39m] 	Project name: capybaraTest
+2018-11-05T10:16:40.366Z [[32minfo[39m] 	Cloud server: https://app.trueautomation.io
+2018-11-05T10:16:40.366Z [[32minfo[39m] 	Starting chromeDriver /Users/true/.trueautomation/chromedriver/chromedriver_mac64_2.43 on port 9516...
+2018-11-05T10:16:40.790Z [[32minfo[39m] 	TrueAutomation.IO Client is listening on port 9515
+2018-11-05T10:16:42.323Z [[32minfo[39m] 	0 Create session response: {"sessionId":"2eb864424276b6f445b5ecbfad07624b","status":0,"value":{"acceptInsecureCerts":false,"acceptSslCerts":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"browserName":"chrome","chrome":{"chromedriverVersion":"2.43.600229 (3fae4d0cda5334b4f533bede5a4787f7b832d052)","userDataDir":"/var/folders/h_/pvcns8sj7sj5v8df934tz8dm0000gq/T/.org.chromium.Chromium.g81oR3"},"cssSelectorsEnabled":true,"databaseEnabled":false,"goog:chromeOptions":{"debuggerAddress":"localhost:57462"},"handlesAlerts":true,"hasTouchScreen":true,"javascriptEnabled":true,"locationContextEnabled":true,"mobileEmulationEnabled":true,"nativeEvents":true,"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platform":"Mac OS X","rotatable":false,"setWindowRect":true,"takesHeapSnapshot":true,"takesScreenshot":true,"unexpectedAlertBehaviour":"","version":"70.0.3538.77","webStorageEnabled":true}}
+2018-11-05T10:16:42.344Z [[32minfo[39m] 	1 Sending POST request to http://localhost:9516/session/2eb864424276b6f445b5ecbfad07624b/url:  {"url":"http://annieselke.com"}
+2018-11-05T10:16:47.900Z [[32minfo[39m] 	2 Sending elements request to http://localhost:9516/session/2eb864424276b6f445b5ecbfad07624b:  {"using":"xpath","value":"//div[@data-page=\"Home\"]__ta__taHome__ta__"}
+2018-11-05T10:16:48.451Z [[32minfo[39m] 	2 Element record result: {"entity":"{\"tag\":\"DIV\",\"class\":null,\"id\":null,\"attrs\":{\"style\":\"display:block\",\"data-page\":\"Home\"},\"addr\":\"0.1.1.0.2.1\",\"content\":[],\"css\":{\"maxHeight\":\"none\",\"zIndex\":\"auto\",\"paddingTop\":\"0px\",\"backgroundColor\":\"rgba(0, 0, 0, 0)\",\"borderRight\":\"0px none rgb(108, 104, 100)\",\"display\":\"block\",\"lineHeight\":\"normal\",\"content\":\"normal\",\"border\":\"0px none rgb(108, 104, 100)\",\"maxWidth\":\"none\",\"borderRadius\":\"0px\",\"textShadow\":\"none\",\"paddingLeft\":\"0px\",\"textTransform\":\"none\",\"overflow\":\"visible\",\"outline\":\"rgb(108, 104, 100) none 0px\",\"borderBottom\":\"0px none rgb(108, 104, 100)\",\"paddingRight\":\"0px\",\"visibility\":\"visible\",\"borderColor\":\"rgb(108, 104, 100)\",\"borderTop\":\"0px none rgb(108, 104, 100)\",\"fontWeight\":\"400\",\"fontFamily\":\"\\\"Avenir Book\\\", sans-serif\",\"justifyContent\":\"normal\",\"backgroundImage\":\"none\",\"width\":\"360px\",\"borderLeft\":\"0px none rgb(108, 104, 100)\",\"textAlign\":\"start\",\"position\":\"static\",\"height\":\"3418.03px\",\"paddingBottom\":\"0px\",\"borderWidth\":\"0px\",\"padding\":\"0px\",\"font\":\"normal normal 400 normal 14px / normal \\\"Avenir Book\\\", sans-serif\",\"color\":\"rgb(108, 104, 100)\",\"opacity\":\"1\",\"background\":\"rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box\"}}","locator":"//div[@data-page=\"Home\"]","locatorType":"xpath","name":"taHome","uuid":"taHome2//div[@data-page=\"Home\"]","meta":{"revision":0,"created":1541413008451,"version":0},"$loki":1}
+2018-11-05T10:16:48.451Z [[32minfo[39m] 	2 Elements locator: {"value":"//div[@data-page=\"Home\"]","using":"xpath"}
+2018-11-05T10:16:48.470Z [[32minfo[39m] 	2 Elements response: {"sessionId":"2eb864424276b6f445b5ecbfad07624b","status":0,"value":[{"ELEMENT":"0.9846711603179696-1"}]}
+2018-11-05T10:16:48.475Z [[32minfo[39m] 	3 Sending GET request to http://localhost:9516/session/2eb864424276b6f445b5ecbfad07624b/element/0.9846711603179696-1/displayed:  {}
+2018-11-05T10:16:48.495Z [[32minfo[39m] 	4 Sending POST request to http://localhost:9516/session/2eb864424276b6f445b5ecbfad07624b/element/0.9846711603179696-1/click:  {}
+2018-11-05T10:16:48.590Z [[32minfo[39m] 	5 Sending elements request to http://localhost:9516/session/2eb864424276b6f445b5ecbfad07624b:  {"using":"xpath","value":"//button//span//a[contains(text(),\"Rugs\")]__ta__taCategory__ta__"}
+2018-11-05T10:16:48.872Z [[32minfo[39m] 	5 Element record result: {"entity":"{\"tag\":\"A\",\"class\":null,\"id\":null,\"attrs\":{\"data-moov-link\":\"on\",\"href\":\"https://annieselke.com/Rugs/c/rugs\",\"class\":\"jss57 jss126\",\"data-moov-rel\":\"prefetch\"},\"addr\":\"0.1.1.0.1.0.1.1.0.0.0.0.0.0\",\"content\":[],\"css\":{\"opacity\":\"1\",\"borderRight\":\"0px none rgb(108, 104, 100)\",\"height\":\"19px\",\"overflow\":\"visible\",\"borderWidth\":\"0px\",\"font\":\"normal normal 300 normal 14px / normal \\\"Avenir Book\\\", sans-serif\",\"paddingRight\":\"0px\",\"maxWidth\":\"none\",\"visibility\":\"visible\",\"color\":\"rgb(108, 104, 100)\",\"justifyContent\":\"normal\",\"borderTop\":\"0px none rgb(108, 104, 100)\",\"display\":\"block\",\"borderRadius\":\"0px\",\"paddingLeft\":\"0px\",\"paddingTop\":\"0px\",\"borderLeft\":\"0px none rgb(108, 104, 100)\",\"maxHeight\":\"none\",\"fontWeight\":\"300\",\"textAlign\":\"center\",\"zIndex\":\"auto\",\"background\":\"rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box\",\"borderBottom\":\"0px none rgb(108, 104, 100)\",\"backgroundColor\":\"rgba(0, 0, 0, 0)\",\"position\":\"static\",\"border\":\"0px none rgb(108, 104, 100)\",\"outline\":\"rgb(108, 104, 100) none 0px\",\"padding\":\"0px\",\"paddingBottom\":\"0px\",\"textShadow\":\"none\",\"fontFamily\":\"\\\"Avenir Book\\\", sans-serif\",\"textTransform\":\"uppercase\",\"backgroundImage\":\"none\",\"content\":\"normal\",\"borderColor\":\"rgb(108, 104, 100)\",\"width\":\"36.5938px\",\"lineHeight\":\"normal\"}}","locator":"//button//span//a[contains(text(),\"Rugs\")]","locatorType":"xpath","name":"taCategory","uuid":"taCategory5//button//span//a[contains(text(),\"Rugs\")]","meta":{"revision":0,"created":1541413008872,"version":0},"$loki":2}
+2018-11-05T10:16:48.872Z [[32minfo[39m] 	5 Elements locator: {"value":"//button//span//a[contains(text(),\"Rugs\")]","using":"xpath"}
+2018-11-05T10:16:48.908Z [[32minfo[39m] 	5 Elements response: {"sessionId":"2eb864424276b6f445b5ecbfad07624b","status":0,"value":[{"ELEMENT":"0.9846711603179696-2"}]}
+2018-11-05T10:16:48.913Z [[32minfo[39m] 	6 Sending GET request to http://localhost:9516/session/2eb864424276b6f445b5ecbfad07624b/element/0.9846711603179696-2/displayed:  {}
+2018-11-05T10:16:48.935Z [[32minfo[39m] 	7 Sending POST request to http://localhost:9516/session/2eb864424276b6f445b5ecbfad07624b/element/0.9846711603179696-2/click:  {}
+2018-11-05T10:16:49.022Z [[32minfo[39m] 	8 Sending elements request to http://localhost:9516/session/2eb864424276b6f445b5ecbfad07624b:  {"using":"xpath","value":"//div[@data-page=\"Subcategory\"]__ta__taCategoryPage__ta__"}
+2018-11-05T10:16:49.154Z [[32minfo[39m] 	8 Element not found
+2018-11-05T10:16:49.154Z [[32minfo[39m] 	8 Elements locator: {"error":"Unable to locate element { method: \"xpath\", selector: \"//div[@data-page=\"Subcategory\"]\" }"}
+2018-11-05T10:16:49.219Z [[32minfo[39m] 	9 Sending elements request to http://localhost:9516/session/2eb864424276b6f445b5ecbfad07624b:  {"using":"xpath","value":"//div[@data-page=\"Subcategory\"]__ta__taCategoryPage__ta__"}
+2018-11-05T10:16:49.333Z [[32minfo[39m] 	9 Element not found
+2018-11-05T10:16:49.334Z [[32minfo[39m] 	9 Elements locator: {"error":"Unable to locate element { method: \"xpath\", selector: \"//div[@data-page=\"Subcategory\"]\" }"}
+2018-11-05T10:16:49.392Z [[32minfo[39m] 	10 Sending elements request to http://localhost:9516/session/2eb864424276b6f445b5ecbfad07624b:  {"using":"xpath","value":"//div[@data-page=\"Subcategory\"]__ta__taCategoryPage__ta__"}
+2018-11-05T10:16:49.509Z [[32minfo[39m] 	10 Element not found
+2018-11-05T10:16:49.509Z [[32minfo[39m] 	10 Elements locator: {"error":"Unable to locate element { method: \"xpath\", selector: \"//div[@data-page=\"Subcategory\"]\" }"}
+2018-11-05T10:16:49.566Z [[32minfo[39m] 	11 Sending elements request to http://localhost:9516/session/2eb864424276b6f445b5ecbfad07624b:  {"using":"xpath","value":"//div[@data-page=\"Subcategory\"]__ta__taCategoryPage__ta__"}
+2018-11-05T10:16:49.933Z [[32minfo[39m] 	11 Element not found
+2018-11-05T10:16:49.934Z [[32minfo[39m] 	11 Elements locator: {"error":"Unable to locate element { method: \"xpath\", selector: \"//div[@data-page=\"Subcategory\"]\" }"}
+2018-11-05T10:16:49.993Z [[32minfo[39m] 	12 Sending elements request to http://localhost:9516/session/2eb864424276b6f445b5ecbfad07624b:  {"using":"xpath","value":"//div[@data-page=\"Subcategory\"]__ta__taCategoryPage__ta__"}
+2018-11-05T10:16:50.126Z [[32minfo[39m] 	12 Element not found
+2018-11-05T10:16:50.127Z [[32minfo[39m] 	12 Elements locator: {"error":"Unable to locate element { method: \"xpath\", selector: \"//div[@data-page=\"Subcategory\"]\" }"}
+2018-11-05T10:16:50.189Z [[32minfo[39m] 	13 Sending elements request to http://localhost:9516/session/2eb864424276b6f445b5ecbfad07624b:  {"using":"xpath","value":"//div[@data-page=\"Subcategory\"]__ta__taCategoryPage__ta__"}
+2018-11-05T10:16:50.310Z [[32minfo[39m] 	13 Element not found
+2018-11-05T10:16:50.310Z [[32minfo[39m] 	13 Elements locator: {"error":"Unable to locate element { method: \"xpath\", selector: \"//div[@data-page=\"Subcategory\"]\" }"}
+2018-11-05T10:16:50.370Z [[32minfo[39m] 	14 Sending elements request to http://localhost:9516/session/2eb864424276b6f445b5ecbfad07624b:  {"using":"xpath","value":"//div[@data-page=\"Subcategory\"]__ta__taCategoryPage__ta__"}
+2018-11-05T10:16:50.488Z [[32minfo[39m] 	14 Element not found
+2018-11-05T10:16:50.488Z [[32minfo[39m] 	14 Elements locator: {"error":"Unable to locate element { method: \"xpath\", selector: \"//div[@data-page=\"Subcategory\"]\" }"}
+2018-11-05T10:16:50.548Z [[32minfo[39m] 	15 Sending elements request to http://localhost:9516/session/2eb864424276b6f445b5ecbfad07624b:  {"using":"xpath","value":"//div[@data-page=\"Subcategory\"]__ta__taCategoryPage__ta__"}
+2018-11-05T10:16:50.670Z [[32minfo[39m] 	15 Element not found
+2018-11-05T10:16:50.670Z [[32minfo[39m] 	15 Elements locator: {"error":"Unable to locate element { method: \"xpath\", selector: \"//div[@data-page=\"Subcategory\"]\" }"}
+2018-11-05T10:16:50.728Z [[32minfo[39m] 	16 Sending elements request to http://localhost:9516/session/2eb864424276b6f445b5ecbfad07624b:  {"using":"xpath","value":"//div[@data-page=\"Subcategory\"]__ta__taCategoryPage__ta__"}
+2018-11-05T10:16:50.841Z [[32minfo[39m] 	16 Element not found
+2018-11-05T10:16:50.841Z [[32minfo[39m] 	16 Elements locator: {"error":"Unable to locate element { method: \"xpath\", selector: \"//div[@data-page=\"Subcategory\"]\" }"}
+2018-11-05T10:16:50.903Z [[32minfo[39m] 	17 Sending elements request to http://localhost:9516/session/2eb864424276b6f445b5ecbfad07624b:  {"using":"xpath","value":"//div[@data-page=\"Subcategory\"]__ta__taCategoryPage__ta__"}
+2018-11-05T10:16:51.020Z [[32minfo[39m] 	17 Element not found
+2018-11-05T10:16:51.020Z [[32minfo[39m] 	17 Elements locator: {"error":"Unable to locate element { method: \"xpath\", selector: \"//div[@data-page=\"Subcategory\"]\" }"}
+2018-11-05T10:16:51.081Z [[32minfo[39m] 	18 Sending elements request to http://localhost:9516/session/2eb864424276b6f445b5ecbfad07624b:  {"using":"xpath","value":"//div[@data-page=\"Subcategory\"]__ta__taCategoryPage__ta__"}
+2018-11-05T10:16:51.193Z [[32minfo[39m] 	18 Element not found
+2018-11-05T10:16:51.193Z [[32minfo[39m] 	18 Elements locator: {"error":"Unable to locate element { method: \"xpath\", selector: \"//div[@data-page=\"Subcategory\"]\" }"}
+2018-11-05T10:16:51.254Z [[32minfo[39m] 	19 Sending elements request to http://localhost:9516/session/2eb864424276b6f445b5ecbfad07624b:  {"using":"xpath","value":"//div[@data-page=\"Subcategory\"]__ta__taCategoryPage__ta__"}
+2018-11-05T10:16:51.368Z [[32minfo[39m] 	19 Element not found
+2018-11-05T10:16:51.368Z [[32minfo[39m] 	19 Elements locator: {"error":"Unable to locate element { method: \"xpath\", selector: \"//div[@data-page=\"Subcategory\"]\" }"}
+2018-11-05T10:16:51.431Z [[32minfo[39m] 	20 Sending elements request to http://localhost:9516/session/2eb864424276b6f445b5ecbfad07624b:  {"using":"xpath","value":"//div[@data-page=\"Subcategory\"]__ta__taCategoryPage__ta__"}
+2018-11-05T10:16:51.546Z [[32minfo[39m] 	20 Element not found
+2018-11-05T10:16:51.546Z [[32minfo[39m] 	20 Elements locator: {"error":"Unable to locate element { method: \"xpath\", selector: \"//div[@data-page=\"Subcategory\"]\" }"}
+2018-11-05T10:16:51.608Z [[32minfo[39m] 	21 Sending elements request to http://localhost:9516/session/2eb864424276b6f445b5ecbfad07624b:  {"using":"xpath","value":"//div[@data-page=\"Subcategory\"]__ta__taCategoryPage__ta__"}
+2018-11-05T10:16:51.721Z [[32minfo[39m] 	21 Element not found
+2018-11-05T10:16:51.721Z [[32minfo[39m] 	21 Elements locator: {"error":"Unable to locate element { method: \"xpath\", selector: \"//div[@data-page=\"Subcategory\"]\" }"}
+2018-11-05T10:16:51.784Z [[32minfo[39m] 	22 Sending elements request to http://localhost:9516/session/2eb864424276b6f445b5ecbfad07624b:  {"using":"xpath","value":"//div[@data-page=\"Subcategory\"]__ta__taCategoryPage__ta__"}
+2018-11-05T10:16:51.893Z [[32minfo[39m] 	22 Element not found
+2018-11-05T10:16:51.894Z [[32minfo[39m] 	22 Elements locator: {"error":"Unable to locate element { method: \"xpath\", selector: \"//div[@data-page=\"Subcategory\"]\" }"}
+2018-11-05T10:16:51.953Z [[32minfo[39m] 	23 Sending elements request to http://localhost:9516/session/2eb864424276b6f445b5ecbfad07624b:  {"using":"xpath","value":"//div[@data-page=\"Subcategory\"]__ta__taCategoryPage__ta__"}
+2018-11-05T10:16:52.066Z [[32minfo[39m] 	23 Element not found
+2018-11-05T10:16:52.066Z [[32minfo[39m] 	23 Elements locator: {"error":"Unable to locate element { method: \"xpath\", selector: \"//div[@data-page=\"Subcategory\"]\" }"}
+2018-11-05T10:16:52.125Z [[32minfo[39m] 	24 Sending elements request to http://localhost:9516/session/2eb864424276b6f445b5ecbfad07624b:  {"using":"xpath","value":"//div[@data-page=\"Subcategory\"]__ta__taCategoryPage__ta__"}
+2018-11-05T10:16:52.240Z [[32minfo[39m] 	24 Element not found
+2018-11-05T10:16:52.240Z [[32minfo[39m] 	24 Elements locator: {"error":"Unable to locate element { method: \"xpath\", selector: \"//div[@data-page=\"Subcategory\"]\" }"}
+2018-11-05T10:16:52.303Z [[32minfo[39m] 	25 Sending elements request to http://localhost:9516/session/2eb864424276b6f445b5ecbfad07624b:  {"using":"xpath","value":"//div[@data-page=\"Subcategory\"]__ta__taCategoryPage__ta__"}
+2018-11-05T10:16:52.413Z [[32minfo[39m] 	25 Element not found
+2018-11-05T10:16:52.413Z [[32minfo[39m] 	25 Elements locator: {"error":"Unable to locate element { method: \"xpath\", selector: \"//div[@data-page=\"Subcategory\"]\" }"}
+2018-11-05T10:16:52.472Z [[32minfo[39m] 	26 Sending elements request to http://localhost:9516/session/2eb864424276b6f445b5ecbfad07624b:  {"using":"xpath","value":"//div[@data-page=\"Subcategory\"]__ta__taCategoryPage__ta__"}
+2018-11-05T10:16:52.585Z [[32minfo[39m] 	26 Element not found
+2018-11-05T10:16:52.585Z [[32minfo[39m] 	26 Elements locator: {"error":"Unable to locate element { method: \"xpath\", selector: \"//div[@data-page=\"Subcategory\"]\" }"}
+2018-11-05T10:16:52.644Z [[32minfo[39m] 	27 Sending elements request to http://localhost:9516/session/2eb864424276b6f445b5ecbfad07624b:  {"using":"xpath","value":"//div[@data-page=\"Subcategory\"]__ta__taCategoryPage__ta__"}
+2018-11-05T10:16:52.767Z [[32minfo[39m] 	27 Element not found
+2018-11-05T10:16:52.767Z [[32minfo[39m] 	27 Elements locator: {"error":"Unable to locate element { method: \"xpath\", selector: \"//div[@data-page=\"Subcategory\"]\" }"}
+2018-11-05T10:16:52.825Z [[32minfo[39m] 	28 Sending elements request to http://localhost:9516/session/2eb864424276b6f445b5ecbfad07624b:  {"using":"xpath","value":"//div[@data-page=\"Subcategory\"]__ta__taCategoryPage__ta__"}
+2018-11-05T10:16:52.951Z [[32minfo[39m] 	28 Element not found
+2018-11-05T10:16:52.951Z [[32minfo[39m] 	28 Elements locator: {"error":"Unable to locate element { method: \"xpath\", selector: \"//div[@data-page=\"Subcategory\"]\" }"}
+2018-11-05T10:16:53.018Z [[32minfo[39m] 	29 Sending elements request to http://localhost:9516/session/2eb864424276b6f445b5ecbfad07624b:  {"using":"xpath","value":"//div[@data-page=\"Subcategory\"]__ta__taCategoryPage__ta__"}
+2018-11-05T10:16:53.127Z [[32minfo[39m] 	29 Element not found
+2018-11-05T10:16:53.127Z [[32minfo[39m] 	29 Elements locator: {"error":"Unable to locate element { method: \"xpath\", selector: \"//div[@data-page=\"Subcategory\"]\" }"}
+2018-11-05T10:16:53.187Z [[32minfo[39m] 	30 Sending elements request to http://localhost:9516/session/2eb864424276b6f445b5ecbfad07624b:  {"using":"xpath","value":"//div[@data-page=\"Subcategory\"]__ta__taCategoryPage__ta__"}
+2018-11-05T10:16:53.294Z [[32minfo[39m] 	30 Element not found
+2018-11-05T10:16:53.295Z [[32minfo[39m] 	30 Elements locator: {"error":"Unable to locate element { method: \"xpath\", selector: \"//div[@data-page=\"Subcategory\"]\" }"}
+2018-11-05T10:16:53.354Z [[32minfo[39m] 	31 Sending elements request to http://localhost:9516/session/2eb864424276b6f445b5ecbfad07624b:  {"using":"xpath","value":"//div[@data-page=\"Subcategory\"]__ta__taCategoryPage__ta__"}
+2018-11-05T10:16:53.463Z [[32minfo[39m] 	31 Element not found
+2018-11-05T10:16:53.463Z [[32minfo[39m] 	31 Elements locator: {"error":"Unable to locate element { method: \"xpath\", selector: \"//div[@data-page=\"Subcategory\"]\" }"}
+2018-11-05T10:16:53.524Z [[32minfo[39m] 	32 Sending elements request to http://localhost:9516/session/2eb864424276b6f445b5ecbfad07624b:  {"using":"xpath","value":"//div[@data-page=\"Subcategory\"]__ta__taCategoryPage__ta__"}
+2018-11-05T10:16:53.630Z [[32minfo[39m] 	32 Element not found
+2018-11-05T10:16:53.630Z [[32minfo[39m] 	32 Elements locator: {"error":"Unable to locate element { method: \"xpath\", selector: \"//div[@data-page=\"Subcategory\"]\" }"}
+2018-11-05T10:16:53.686Z [[32minfo[39m] 	33 Sending elements request to http://localhost:9516/session/2eb864424276b6f445b5ecbfad07624b:  {"using":"xpath","value":"//div[@data-page=\"Subcategory\"]__ta__taCategoryPage__ta__"}
+2018-11-05T10:16:53.794Z [[32minfo[39m] 	33 Element not found
+2018-11-05T10:16:53.795Z [[32minfo[39m] 	33 Elements locator: {"error":"Unable to locate element { method: \"xpath\", selector: \"//div[@data-page=\"Subcategory\"]\" }"}
+2018-11-05T10:16:53.854Z [[32minfo[39m] 	34 Sending elements request to http://localhost:9516/session/2eb864424276b6f445b5ecbfad07624b:  {"using":"xpath","value":"//div[@data-page=\"Subcategory\"]__ta__taCategoryPage__ta__"}
+2018-11-05T10:16:53.962Z [[32minfo[39m] 	34 Element not found
+2018-11-05T10:16:53.962Z [[32minfo[39m] 	34 Elements locator: {"error":"Unable to locate element { method: \"xpath\", selector: \"//div[@data-page=\"Subcategory\"]\" }"}
+2018-11-05T10:16:54.020Z [[32minfo[39m] 	35 Sending elements request to http://localhost:9516/session/2eb864424276b6f445b5ecbfad07624b:  {"using":"xpath","value":"//div[@data-page=\"Subcategory\"]__ta__taCategoryPage__ta__"}
+2018-11-05T10:16:54.128Z [[32minfo[39m] 	35 Element not found
+2018-11-05T10:16:54.129Z [[32minfo[39m] 	35 Elements locator: {"error":"Unable to locate element { method: \"xpath\", selector: \"//div[@data-page=\"Subcategory\"]\" }"}
+2018-11-05T10:16:54.147Z [[32minfo[39m] 	36 Sending GET request to http://localhost:9516/session/2eb864424276b6f445b5ecbfad07624b/window_handles:  {}
+2018-11-05T10:16:54.158Z [[32minfo[39m] 	37 Sending POST request to http://localhost:9516/session/2eb864424276b6f445b5ecbfad07624b/window:  {"name":"CDwindow-B8371600ABE58ED47B5E38771166FC8D"}
+2018-11-05T10:16:54.167Z [[32minfo[39m] 	38 Sending GET request to http://localhost:9516/session/2eb864424276b6f445b5ecbfad07624b/window_handles:  {}
+2018-11-05T10:16:54.176Z [[32minfo[39m] 	39 Sending POST request to http://localhost:9516/session/2eb864424276b6f445b5ecbfad07624b/goog/cdp/execute:  {"cmd":"Network.clearBrowserCookies","params":{}}
+2018-11-05T10:16:54.188Z [[32minfo[39m] 	40 Sending POST request to http://localhost:9516/session/2eb864424276b6f445b5ecbfad07624b/url:  {"url":"about:blank"}
+2018-11-05T10:16:54.302Z [[32minfo[39m] 	41 Sending elements request to http://localhost:9516/session/2eb864424276b6f445b5ecbfad07624b:  {"using":"xpath","value":"/html/body/*"}
+2018-11-05T10:16:54.303Z [[32minfo[39m] 	41 Elements locator: {"value":"/html/body/*","using":"xpath"}
+2018-11-05T10:16:54.318Z [[32minfo[39m] 	41 Elements response: {"sessionId":"2eb864424276b6f445b5ecbfad07624b","status":0,"value":[]}
+2018-11-05T10:16:54.347Z [[32minfo[39m] 	42 Sending DELETE request to http://localhost:9516/session/2eb864424276b6f445b5ecbfad07624b:  {}
+2018-11-05T10:16:54.412Z [[32minfo[39m] 	Sync elements
+2018-11-05T10:16:54.831Z [[32minfo[39m] 	Stopping driver

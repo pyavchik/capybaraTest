@@ -1,0 +1,9 @@
+2018-11-05T10:04:38.286Z [[32minfo[39m] 	Starting TrueAutomation.IO client
+2018-11-05T10:04:38.287Z [[32minfo[39m] 	API key: 44c69a48-ba10-4fb0-b4a2-b07e2da25af9
+2018-11-05T10:04:38.287Z [[32minfo[39m] 	Project name: capybaraTest
+2018-11-05T10:04:38.287Z [[32minfo[39m] 	Cloud server: https://app.trueautomation.io
+2018-11-05T10:04:38.287Z [[32minfo[39m] 	Starting chromeDriver /Users/true/.trueautomation/chromedriver/chromedriver_mac64_2.43 on port 9516...
+2018-11-05T10:04:38.830Z [[32minfo[39m] 	TrueAutomation.IO Client is listening on port 9515
+2018-11-05T10:04:39.292Z [[32minfo[39m] 	0 Create session response: {"sessionId":"88d85b8a87e103655bd2c5ee12514fa5","status":14,"value":{"message":"invalid argument: cannot parse capability: browserName\nfrom invalid argument: cannot be empty\n  (Driver info: chromedriver=2.43.600229 (3fae4d0cda5334b4f533bede5a4787f7b832d052),platform=Mac OS X 10.14.0 x86_64)"}}
+2018-11-05T10:04:39.327Z [[32minfo[39m] 	Sync elements
+2018-11-05T10:04:39.959Z [[32minfo[39m] 	Stopping driver

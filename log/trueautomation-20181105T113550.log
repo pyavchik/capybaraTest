@@ -1,0 +1,8 @@
+2018-11-05T09:35:51.441Z [[32minfo[39m] 	Starting TrueAutomation.IO client
+2018-11-05T09:35:51.441Z [[32minfo[39m] 	API key: 44c69a48-ba10-4fb0-b4a2-b07e2da25af9
+2018-11-05T09:35:51.442Z [[32minfo[39m] 	Project name: capybaraTest
+2018-11-05T09:35:51.442Z [[32minfo[39m] 	Cloud server: https://app.trueautomation.io
+2018-11-05T09:35:51.442Z [[32minfo[39m] 	Starting chromeDriver /Users/true/.trueautomation/chromedriver/chromedriver_mac64_2.43 on port 9516...
+2018-11-05T09:35:51.957Z [[32minfo[39m] 	TrueAutomation.IO Client is listening on port 9515
+2018-11-05T09:35:52.432Z [[32minfo[39m] 	Sync elements
+2018-11-05T09:35:52.949Z [[32minfo[39m] 	Stopping driver

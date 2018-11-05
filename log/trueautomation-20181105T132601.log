@@ -1,0 +1,46 @@
+2018-11-05T11:26:02.547Z [[32minfo[39m] 	Starting TrueAutomation.IO client
+2018-11-05T11:26:02.547Z [[32minfo[39m] 	API key: 44c69a48-ba10-4fb0-b4a2-b07e2da25af9
+2018-11-05T11:26:02.548Z [[32minfo[39m] 	Project name: capybaraTest
+2018-11-05T11:26:02.548Z [[32minfo[39m] 	Cloud server: https://app.trueautomation.io
+2018-11-05T11:26:02.548Z [[32minfo[39m] 	Starting chromeDriver /Users/true/.trueautomation/chromedriver/chromedriver_mac64_2.43 on port 9516...
+2018-11-05T11:26:02.981Z [[32minfo[39m] 	TrueAutomation.IO Client is listening on port 9515
+2018-11-05T11:26:04.553Z [[32minfo[39m] 	0 Create session response: {"sessionId":"088092ec471c916a675b0888834c2b58","status":0,"value":{"acceptInsecureCerts":false,"acceptSslCerts":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"browserName":"chrome","chrome":{"chromedriverVersion":"2.43.600229 (3fae4d0cda5334b4f533bede5a4787f7b832d052)","userDataDir":"/var/folders/h_/pvcns8sj7sj5v8df934tz8dm0000gq/T/.org.chromium.Chromium.mkFqTe"},"cssSelectorsEnabled":true,"databaseEnabled":false,"goog:chromeOptions":{"debuggerAddress":"localhost:61223"},"handlesAlerts":true,"hasTouchScreen":true,"javascriptEnabled":true,"locationContextEnabled":true,"mobileEmulationEnabled":true,"nativeEvents":true,"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platform":"Mac OS X","rotatable":false,"setWindowRect":true,"takesHeapSnapshot":true,"takesScreenshot":true,"unexpectedAlertBehaviour":"","version":"70.0.3538.77","webStorageEnabled":true}}
+2018-11-05T11:26:04.573Z [[32minfo[39m] 	1 Sending POST request to http://localhost:9516/session/088092ec471c916a675b0888834c2b58/url:  {"url":"http://annieselke.com"}
+2018-11-05T11:26:10.387Z [[32minfo[39m] 	2 Sending elements request to http://localhost:9516/session/088092ec471c916a675b0888834c2b58:  {"using":"xpath","value":"//div[@data-page=\"Home\"]__ta__taHome__ta__"}
+2018-11-05T11:26:10.523Z [[32minfo[39m] 	2 Enum nodes response:  {"sessionId":"088092ec471c916a675b088883
+2018-11-05T11:26:10.713Z [[32minfo[39m] 	2 Elements locator: {"value":"/*[1]/*[2]/*[2]/*[1]/*[3]/*[2]","using":"xpath"}
+2018-11-05T11:26:10.730Z [[32minfo[39m] 	2 Elements response: {"sessionId":"088092ec471c916a675b0888834c2b58","status":0,"value":[{"ELEMENT":"0.24549497546420596-1"}]}
+2018-11-05T11:26:10.735Z [[32minfo[39m] 	3 Sending GET request to http://localhost:9516/session/088092ec471c916a675b0888834c2b58/element/0.24549497546420596-1/displayed:  {}
+2018-11-05T11:26:10.756Z [[32minfo[39m] 	4 Sending POST request to http://localhost:9516/session/088092ec471c916a675b0888834c2b58/element/0.24549497546420596-1/click:  {}
+2018-11-05T11:26:13.878Z [[32minfo[39m] 	5 Sending GET request to http://localhost:9516/session/088092ec471c916a675b0888834c2b58/window_handles:  {}
+2018-11-05T11:26:13.891Z [[32minfo[39m] 	6 Sending POST request to http://localhost:9516/session/088092ec471c916a675b0888834c2b58/window:  {"name":"CDwindow-71A1A73145871F855AFCA779C8223759"}
+2018-11-05T11:26:13.901Z [[32minfo[39m] 	7 Sending GET request to http://localhost:9516/session/088092ec471c916a675b0888834c2b58/window_handles:  {}
+2018-11-05T11:26:13.911Z [[32minfo[39m] 	8 Sending POST request to http://localhost:9516/session/088092ec471c916a675b0888834c2b58/goog/cdp/execute:  {"cmd":"Network.clearBrowserCookies","params":{}}
+2018-11-05T11:26:13.942Z [[32minfo[39m] 	9 Sending POST request to http://localhost:9516/session/088092ec471c916a675b0888834c2b58/url:  {"url":"about:blank"}
+2018-11-05T11:26:14.076Z [[32minfo[39m] 	10 Sending elements request to http://localhost:9516/session/088092ec471c916a675b0888834c2b58:  {"using":"xpath","value":"/html/body/*"}
+2018-11-05T11:26:14.076Z [[32minfo[39m] 	10 Elements locator: {"value":"/html/body/*","using":"xpath"}
+2018-11-05T11:26:14.097Z [[32minfo[39m] 	10 Elements response: {"sessionId":"088092ec471c916a675b0888834c2b58","status":0,"value":[]}
+2018-11-05T11:26:14.106Z [[32minfo[39m] 	11 Sending POST request to http://localhost:9516/session/088092ec471c916a675b0888834c2b58/url:  {"url":"http://annieselke.com"}
+2018-11-05T11:26:15.592Z [[32minfo[39m] 	12 Sending elements request to http://localhost:9516/session/088092ec471c916a675b0888834c2b58:  {"using":"xpath","value":"//button//span//a[contains(text(),\"Rugs\")]__ta__taCategory__ta__"}
+2018-11-05T11:26:15.844Z [[32minfo[39m] 	12 Enum nodes response:  {"sessionId":"088092ec471c916a675b088883
+2018-11-05T11:26:16.024Z [[32minfo[39m] 	12 Elements locator: {"value":"/*[1]/*[2]/*[2]/*[1]/*[2]/*[1]/*[2]/*[2]/*[1]/*[1]/*[1]/*[1]/*[1]/*[1]","using":"xpath"}
+2018-11-05T11:26:16.043Z [[32minfo[39m] 	12 Elements response: {"sessionId":"088092ec471c916a675b0888834c2b58","status":0,"value":[{"ELEMENT":"0.6550443412141052-1"}]}
+2018-11-05T11:26:16.047Z [[32minfo[39m] 	13 Sending GET request to http://localhost:9516/session/088092ec471c916a675b0888834c2b58/element/0.6550443412141052-1/displayed:  {}
+2018-11-05T11:26:16.067Z [[32minfo[39m] 	14 Sending POST request to http://localhost:9516/session/088092ec471c916a675b0888834c2b58/element/0.6550443412141052-1/click:  {}
+2018-11-05T11:26:17.219Z [[32minfo[39m] 	15 Sending elements request to http://localhost:9516/session/088092ec471c916a675b0888834c2b58:  {"using":"xpath","value":"//div[@data-page=\"Subcategory\"]__ta__taCategoryPage__ta__"}
+2018-11-05T11:26:17.491Z [[32minfo[39m] 	15 Enum nodes response:  {"sessionId":"088092ec471c916a675b088883
+2018-11-05T11:26:17.931Z [[32minfo[39m] 	15 Elements locator: {"value":"/*[1]/*[2]/*[2]/*[1]/*[3]/*[2]","using":"xpath"}
+2018-11-05T11:26:17.958Z [[32minfo[39m] 	15 Elements response: {"sessionId":"088092ec471c916a675b0888834c2b58","status":0,"value":[{"ELEMENT":"0.6550443412141052-2"}]}
+2018-11-05T11:26:17.963Z [[32minfo[39m] 	16 Sending GET request to http://localhost:9516/session/088092ec471c916a675b0888834c2b58/element/0.6550443412141052-2/displayed:  {}
+2018-11-05T11:26:17.983Z [[32minfo[39m] 	17 Sending POST request to http://localhost:9516/session/088092ec471c916a675b0888834c2b58/element/0.6550443412141052-2/click:  {}
+2018-11-05T11:26:21.049Z [[32minfo[39m] 	18 Sending GET request to http://localhost:9516/session/088092ec471c916a675b0888834c2b58/window_handles:  {}
+2018-11-05T11:26:21.058Z [[32minfo[39m] 	19 Sending POST request to http://localhost:9516/session/088092ec471c916a675b0888834c2b58/window:  {"name":"CDwindow-71A1A73145871F855AFCA779C8223759"}
+2018-11-05T11:26:21.066Z [[32minfo[39m] 	20 Sending GET request to http://localhost:9516/session/088092ec471c916a675b0888834c2b58/window_handles:  {}
+2018-11-05T11:26:21.082Z [[32minfo[39m] 	21 Sending POST request to http://localhost:9516/session/088092ec471c916a675b0888834c2b58/goog/cdp/execute:  {"cmd":"Network.clearBrowserCookies","params":{}}
+2018-11-05T11:26:21.097Z [[32minfo[39m] 	22 Sending POST request to http://localhost:9516/session/088092ec471c916a675b0888834c2b58/url:  {"url":"about:blank"}
+2018-11-05T11:26:21.194Z [[32minfo[39m] 	23 Sending elements request to http://localhost:9516/session/088092ec471c916a675b0888834c2b58:  {"using":"xpath","value":"/html/body/*"}
+2018-11-05T11:26:21.194Z [[32minfo[39m] 	23 Elements locator: {"value":"/html/body/*","using":"xpath"}
+2018-11-05T11:26:21.208Z [[32minfo[39m] 	23 Elements response: {"sessionId":"088092ec471c916a675b0888834c2b58","status":0,"value":[]}
+2018-11-05T11:26:21.216Z [[32minfo[39m] 	24 Sending DELETE request to http://localhost:9516/session/088092ec471c916a675b0888834c2b58:  {}
+2018-11-05T11:26:21.278Z [[32minfo[39m] 	Sync elements
+2018-11-05T11:26:21.865Z [[32minfo[39m] 	Stopping driver

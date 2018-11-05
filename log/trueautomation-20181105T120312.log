@@ -1,0 +1,8 @@
+2018-11-05T10:03:13.540Z [[32minfo[39m] 	Starting TrueAutomation.IO client
+2018-11-05T10:03:13.541Z [[32minfo[39m] 	API key: 44c69a48-ba10-4fb0-b4a2-b07e2da25af9
+2018-11-05T10:03:13.542Z [[32minfo[39m] 	Project name: capybaraTest
+2018-11-05T10:03:13.542Z [[32minfo[39m] 	Cloud server: https://app.trueautomation.io
+2018-11-05T10:03:14.041Z [[32minfo[39m] 	TrueAutomation.IO Client is listening on port 9515
+2018-11-05T10:03:14.572Z [[32minfo[39m] 	0 Create session response: {"status":13,"value":{"message":"An unknown server-side error occurred while processing the command. Original error: You must include a platformName capability"},"sessionId":null}
+2018-11-05T10:03:14.600Z [[32minfo[39m] 	Sync elements
+2018-11-05T10:03:15.174Z [[32minfo[39m] 	Stopping driver

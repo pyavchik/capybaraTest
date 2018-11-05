@@ -1,0 +1,33 @@
+2018-11-05T09:51:54.971Z [[32minfo[39m] 	Starting TrueAutomation.IO client
+2018-11-05T09:51:54.973Z [[32minfo[39m] 	API key: 44c69a48-ba10-4fb0-b4a2-b07e2da25af9
+2018-11-05T09:51:54.973Z [[32minfo[39m] 	Project name: capybaraTest
+2018-11-05T09:51:54.973Z [[32minfo[39m] 	Cloud server: https://app.trueautomation.io
+2018-11-05T09:51:55.522Z [[32minfo[39m] 	TrueAutomation.IO Client is listening on port 9515
+2018-11-05T09:52:31.369Z [[32minfo[39m] 	0 Create session response: {"status":0,"value":{"webStorageEnabled":false,"locationContextEnabled":false,"browserName":"safari","platform":"ANY","javascriptEnabled":false,"databaseEnabled":false,"takesScreenshot":false,"networkConnectionEnabled":false,"version":"","cssSelectorsEnabled":false,"nativeEvents":false,"rotatable":false,"automationName":"XCUITest","platformName":"iOS","deviceName":"iPhone X (11.4)","udid":"D6FDC999-401B-4799-9489-351613A424FB","taRemoteUrl":"http://localhost:4723/wd/hub"},"sessionId":"86a006bf-76d4-4406-8d98-18d0c586df9b"}
+2018-11-05T09:52:31.466Z [[32minfo[39m] 	1 Sending POST request to http://localhost:4723/wd/hub/session/86a006bf-76d4-4406-8d98-18d0c586df9b/url:  {"url":"http://annieselke.com"}
+2018-11-05T09:52:33.576Z [[32minfo[39m] 	2 Sending elements request to http://localhost:4723/wd/hub/session/86a006bf-76d4-4406-8d98-18d0c586df9b:  {"using":"xpath","value":"//div[@data-page=\"Home\"]__ta__taHome__ta__"}
+2018-11-05T09:52:33.657Z [[32minfo[39m] 	2 Element not found
+2018-11-05T09:52:33.658Z [[32minfo[39m] 	2 Elements locator: {"error":"Unable to locate element { method: \"xpath\", selector: \"//div[@data-page=\"Home\"]\" }"}
+2018-11-05T09:52:33.720Z [[32minfo[39m] 	3 Sending elements request to http://localhost:4723/wd/hub/session/86a006bf-76d4-4406-8d98-18d0c586df9b:  {"using":"xpath","value":"//div[@data-page=\"Home\"]__ta__taHome__ta__"}
+2018-11-05T09:52:33.773Z [[32minfo[39m] 	3 Element not found
+2018-11-05T09:52:33.773Z [[32minfo[39m] 	3 Elements locator: {"error":"Unable to locate element { method: \"xpath\", selector: \"//div[@data-page=\"Home\"]\" }"}
+2018-11-05T09:52:33.835Z [[32minfo[39m] 	4 Sending elements request to http://localhost:4723/wd/hub/session/86a006bf-76d4-4406-8d98-18d0c586df9b:  {"using":"xpath","value":"//div[@data-page=\"Home\"]__ta__taHome__ta__"}
+2018-11-05T09:52:33.866Z [[32minfo[39m] 	4 Element not found
+2018-11-05T09:52:33.866Z [[32minfo[39m] 	4 Elements locator: {"error":"Unable to locate element { method: \"xpath\", selector: \"//div[@data-page=\"Home\"]\" }"}
+2018-11-05T09:52:33.926Z [[32minfo[39m] 	5 Sending elements request to http://localhost:4723/wd/hub/session/86a006bf-76d4-4406-8d98-18d0c586df9b:  {"using":"xpath","value":"//div[@data-page=\"Home\"]__ta__taHome__ta__"}
+2018-11-05T09:52:33.967Z [[32minfo[39m] 	5 Element not found
+2018-11-05T09:52:33.968Z [[32minfo[39m] 	5 Elements locator: {"error":"Unable to locate element { method: \"xpath\", selector: \"//div[@data-page=\"Home\"]\" }"}
+2018-11-05T09:52:34.025Z [[32minfo[39m] 	6 Sending elements request to http://localhost:4723/wd/hub/session/86a006bf-76d4-4406-8d98-18d0c586df9b:  {"using":"xpath","value":"//div[@data-page=\"Home\"]__ta__taHome__ta__"}
+2018-11-05T09:52:34.364Z [[32minfo[39m] 	6 Element record result: {"entity":"{\"tag\":\"DIV\",\"class\":null,\"id\":null,\"attrs\":{\"data-page\":\"Home\",\"style\":\"display:block\"},\"addr\":\"0.1.2.0.2.1\",\"content\":[],\"css\":{\"borderTop\":\"0px none rgb(108, 104, 100)\",\"fontWeight\":\"normal\",\"paddingTop\":\"0px\",\"maxHeight\":\"none\",\"borderRadius\":\"0px\",\"color\":\"rgb(108, 104, 100)\",\"borderLeft\":\"0px none rgb(108, 104, 100)\",\"font\":\"normal normal normal normal 14px/18px \\\"Avenir Book\\\", sans-serif\",\"background\":\"rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box\",\"height\":\"1829px\",\"paddingRight\":\"0px\",\"paddingBottom\":\"0px\",\"textAlign\":\"start\",\"borderBottom\":\"0px none rgb(108, 104, 100)\",\"backgroundImage\":\"none\",\"width\":\"414px\",\"zIndex\":\"auto\",\"display\":\"block\",\"padding\":\"0px\",\"lineHeight\":\"18px\",\"paddingLeft\":\"0px\",\"position\":\"static\",\"borderWidth\":\"0px\",\"fontFamily\":\"\\\"Avenir Book\\\", sans-serif\",\"borderColor\":\"rgb(108, 104, 100)\",\"overflow\":\"visible\",\"backgroundColor\":\"rgba(0, 0, 0, 0)\",\"maxWidth\":\"none\",\"outline\":\"rgb(108, 104, 100) none 0px\",\"border\":\"0px none rgb(108, 104, 100)\",\"textShadow\":\"none\",\"textTransform\":\"none\",\"borderRight\":\"0px none rgb(108, 104, 100)\",\"justifyContent\":\"normal\",\"opacity\":\"1\",\"visibility\":\"visible\"}}","locator":"//div[@data-page=\"Home\"]","locatorType":"xpath","name":"taHome","uuid":"taHome6//div[@data-page=\"Home\"]","meta":{"revision":0,"created":1541411554364,"version":0},"$loki":1}
+2018-11-05T09:52:34.364Z [[32minfo[39m] 	6 Elements locator: {"value":"//div[@data-page=\"Home\"]","using":"xpath"}
+2018-11-05T09:52:34.426Z [[32minfo[39m] 	6 Elements response: {"status":0,"value":[{"ELEMENT":"5000"}],"sessionId":"86a006bf-76d4-4406-8d98-18d0c586df9b"}
+2018-11-05T09:52:34.432Z [[32minfo[39m] 	7 Sending GET request to http://localhost:4723/wd/hub/session/86a006bf-76d4-4406-8d98-18d0c586df9b/element/5000/displayed:  {}
+2018-11-05T09:52:34.477Z [[32minfo[39m] 	8 Sending POST request to http://localhost:4723/wd/hub/session/86a006bf-76d4-4406-8d98-18d0c586df9b/element/5000/click:  {}
+2018-11-05T09:52:37.550Z [[32minfo[39m] 	9 Sending DELETE request to http://localhost:4723/wd/hub/session/86a006bf-76d4-4406-8d98-18d0c586df9b/cookie:  {}
+2018-11-05T09:52:37.928Z [[32minfo[39m] 	10 Sending POST request to http://localhost:4723/wd/hub/session/86a006bf-76d4-4406-8d98-18d0c586df9b/url:  {"url":"about:blank"}
+2018-11-05T09:52:40.026Z [[32minfo[39m] 	11 Sending elements request to http://localhost:4723/wd/hub/session/86a006bf-76d4-4406-8d98-18d0c586df9b:  {"using":"xpath","value":"/html/body/*"}
+2018-11-05T09:52:40.026Z [[32minfo[39m] 	11 Elements locator: {"value":"/html/body/*","using":"xpath"}
+2018-11-05T09:52:40.107Z [[32minfo[39m] 	11 Elements response: {"status":0,"value":[],"sessionId":"86a006bf-76d4-4406-8d98-18d0c586df9b"}
+2018-11-05T09:52:40.113Z [[32minfo[39m] 	12 Sending DELETE request to http://localhost:4723/wd/hub/session/86a006bf-76d4-4406-8d98-18d0c586df9b:  {}
+2018-11-05T09:52:41.193Z [[32minfo[39m] 	Sync elements
+2018-11-05T09:52:41.624Z [[32minfo[39m] 	Stopping driver

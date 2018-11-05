@@ -1,0 +1,8 @@
+2018-11-05T09:49:19.341Z [[32minfo[39m] 	Starting TrueAutomation.IO client
+2018-11-05T09:49:19.342Z [[32minfo[39m] 	API key: 44c69a48-ba10-4fb0-b4a2-b07e2da25af9
+2018-11-05T09:49:19.342Z [[32minfo[39m] 	Project name: capybaraTest
+2018-11-05T09:49:19.342Z [[32minfo[39m] 	Cloud server: https://app.trueautomation.io
+2018-11-05T09:49:19.883Z [[32minfo[39m] 	TrueAutomation.IO Client is listening on port 9515
+2018-11-05T09:49:21.199Z [[32minfo[39m] 	0 Create session response: {"status":13,"value":{"message":"An unknown server-side error occurred while processing the command. Original error: Unknown device or simulator UDID: 'EA440A3C-288A-55AD-BB26-FF006BE594A0'"},"sessionId":null}
+2018-11-05T09:49:21.248Z [[32minfo[39m] 	Sync elements
+2018-11-05T09:49:21.668Z [[32minfo[39m] 	Stopping driver

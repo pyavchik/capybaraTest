@@ -1,0 +1,20 @@
+2018-11-05T10:09:22.945Z [[32minfo[39m] 	Starting TrueAutomation.IO client
+2018-11-05T10:09:22.945Z [[32minfo[39m] 	API key: 44c69a48-ba10-4fb0-b4a2-b07e2da25af9
+2018-11-05T10:09:22.946Z [[32minfo[39m] 	Project name: capybaraTest
+2018-11-05T10:09:22.946Z [[32minfo[39m] 	Cloud server: https://app.trueautomation.io
+2018-11-05T10:09:22.946Z [[32minfo[39m] 	Starting chromeDriver /Users/true/.trueautomation/chromedriver/chromedriver_mac64_2.43 on port 9516...
+2018-11-05T10:09:23.387Z [[32minfo[39m] 	TrueAutomation.IO Client is listening on port 9515
+2018-11-05T10:09:24.893Z [[32minfo[39m] 	0 Create session response: {"sessionId":"3d8f927e4b782ae91ba182811b03cfba","status":0,"value":{"acceptInsecureCerts":false,"acceptSslCerts":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"browserName":"chrome","chrome":{"chromedriverVersion":"2.43.600229 (3fae4d0cda5334b4f533bede5a4787f7b832d052)","userDataDir":"/var/folders/h_/pvcns8sj7sj5v8df934tz8dm0000gq/T/.org.chromium.Chromium.exlY6z"},"cssSelectorsEnabled":true,"databaseEnabled":false,"goog:chromeOptions":{"debuggerAddress":"localhost:56021"},"handlesAlerts":true,"hasTouchScreen":false,"javascriptEnabled":true,"locationContextEnabled":true,"mobileEmulationEnabled":false,"nativeEvents":true,"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platform":"Mac OS X","rotatable":false,"setWindowRect":true,"takesHeapSnapshot":true,"takesScreenshot":true,"unexpectedAlertBehaviour":"","version":"70.0.3538.77","webStorageEnabled":true}}
+2018-11-05T10:09:24.912Z [[32minfo[39m] 	1 Sending POST request to http://localhost:9516/session/3d8f927e4b782ae91ba182811b03cfba/url:  {"url":"http://annieselke.com"}
+2018-11-05T10:10:23.385Z [[32minfo[39m] 	Sync elements
+2018-11-05T10:10:24.917Z [[32minfo[39m] 	2 Sending GET request to http://localhost:9516/session/3d8f927e4b782ae91ba182811b03cfba/window_handles:  {}
+2018-11-05T10:11:05.332Z [[32minfo[39m] 	3 Sending POST request to http://localhost:9516/session/3d8f927e4b782ae91ba182811b03cfba/window:  {"name":"CDwindow-DCCA18948F99415D7D1C4FC925C5566E"}
+2018-11-05T10:11:05.357Z [[32minfo[39m] 	4 Sending GET request to http://localhost:9516/session/3d8f927e4b782ae91ba182811b03cfba/window_handles:  {}
+2018-11-05T10:11:05.391Z [[32minfo[39m] 	5 Sending POST request to http://localhost:9516/session/3d8f927e4b782ae91ba182811b03cfba/goog/cdp/execute:  {"cmd":"Network.clearBrowserCookies","params":{}}
+2018-11-05T10:11:05.406Z [[32minfo[39m] 	6 Sending POST request to http://localhost:9516/session/3d8f927e4b782ae91ba182811b03cfba/url:  {"url":"about:blank"}
+2018-11-05T10:11:05.471Z [[32minfo[39m] 	7 Sending elements request to http://localhost:9516/session/3d8f927e4b782ae91ba182811b03cfba:  {"using":"xpath","value":"/html/body/*"}
+2018-11-05T10:11:05.472Z [[32minfo[39m] 	7 Elements locator: {"value":"/html/body/*","using":"xpath"}
+2018-11-05T10:11:05.515Z [[32minfo[39m] 	7 Elements response: {"sessionId":"3d8f927e4b782ae91ba182811b03cfba","status":0,"value":[]}
+2018-11-05T10:11:05.594Z [[32minfo[39m] 	8 Sending DELETE request to http://localhost:9516/session/3d8f927e4b782ae91ba182811b03cfba:  {}
+2018-11-05T10:11:05.658Z [[32minfo[39m] 	Sync elements
+2018-11-05T10:11:06.250Z [[32minfo[39m] 	Stopping driver
